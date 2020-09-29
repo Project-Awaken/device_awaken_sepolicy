@@ -23,8 +23,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/awaken/sepolicy/common/dynamic \
-    device/awaken/sepolicy/common/system
+    device/awaken/sepolicy/common/dynamic
 else
 BOARD_SEPOLICY_DIRS += \
     device/awaken/sepolicy/common/dynamic \
